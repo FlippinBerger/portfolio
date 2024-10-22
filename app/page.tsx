@@ -16,7 +16,7 @@ export default function Home() {
         >
           <div className='flex flex-col items-center'>
             <div className='bg-violet-600 rounded-2xl m-4'>
-              <h1 className='text-4xl p-4'>Hey, I'm Chris</h1>
+              <h1 className='text-4xl p-4'>Hey, I&apos;m Chris</h1>
             </div>
             <div className='flex flex-col justify-center items-start bg-violet-600 p-4 rounded-2xl'>
               <h2 className='text-2xl'>
@@ -35,13 +35,18 @@ export default function Home() {
         >
           <div className='flex gap-8 justify-center w-screen'>
             <Buttin>
-              <Link className='p-4' href='/portfolio'>
-                Portfolio
+              <Link className='p-4' href='/about'>
+                About Me
               </Link>
             </Buttin>
             <Buttin>
-              <Link className='p-4' href='/about'>
-                About Me
+              <Link className='p-4' href='/tech'>
+                Tech Skills
+              </Link>
+            </Buttin>
+            <Buttin>
+              <Link className='p-4' href='/portfolio'>
+                Portfolio
               </Link>
             </Buttin>
           </div>
