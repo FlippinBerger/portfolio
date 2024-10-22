@@ -5,12 +5,12 @@ import Link from 'next/link'
 export default function AboutPage() {
   const duration = 0.4
   return (
-    <div className='m-4 grid grid-cols-2 min-h-full'>
+    <div className='m-4 sm:grid sm:grid-cols-2 min-h-full'>
       <motion.div
         animate={{ x: 0 }}
         initial={{ x: -1200 }}
         transition={{ duration: duration }}
-        className='flex flex-col gap-8 items-center rounded-2xl p-2 mt-4'
+        className='flex sm:flex-col gap-8 items-center rounded-2xl p-2 mt-4'
       >
         <Link href='/'>
           <motion.div
@@ -47,7 +47,7 @@ export default function AboutPage() {
         animate={{ x: 0 }}
         initial={{ x: 1200 }}
         transition={{ duration: duration }}
-        className='border border-violet-600 rounded-2xl pl-4 p-2'
+        className='sm:border sm:border-violet-600 rounded-2xl pl-4 p-2'
       >
         <Link href='/'>
           <h1 className='text-4xl my-4 text-green-400'>Chris Berger</h1>
@@ -98,7 +98,7 @@ export default function AboutPage() {
           </li>
         </ul>
       </motion.div>
-      <div className='col-span-2 mt-8 mx-16'>
+      <div className='sm:col-span-2 mt-4 sm:mt-8 pl-4 sm:mx-16'>
         <h1 className='text-2xl text-green-400'>
           I&apos;m also hyper competitve and LOVE a stupid game. Some random
           leagues I have been a part of include:
@@ -114,7 +114,7 @@ export default function AboutPage() {
             <h1 className='text-2xl text-green-400'>Disc Golf</h1>
           </li>
         </ul>
-        <h1 className='text-2xl text-green-400 mt-2'>
+        <h1 className='text-2xl text-green-400 mt-4 sm:mt-2'>
           I&apos;m still looking to add darts, pool, and any others that come up
           to the list above.
         </h1>

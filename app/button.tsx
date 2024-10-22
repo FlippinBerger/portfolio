@@ -1,5 +1,6 @@
 'use client'
 import { Button } from 'react-aria-components'
+import * as motion from 'framer-motion/client'
 
 type Props = {
   children: string | JSX.Element | JSX.Element[] | (() => JSX.Element)
@@ -7,7 +8,13 @@ type Props = {
 
 const Buttin: React.FC<Props> = ({ children }) => {
   return (
-    <Button className='bg-violet-600 rounded-2xl text-xl'>{children}</Button>
+    <motion.div
+      whileHover={{
+        scale: 1.4,
+      }}
+    >
+      <Button className='bg-violet-600 rounded-2xl text-xl'>{children}</Button>
+    </motion.div>
   )
 }
 

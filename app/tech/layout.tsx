@@ -15,15 +15,18 @@ export default function TechSkillsLayout({
 
 const TechSkillsNav = () => {
   return (
-    <nav className='flex flex-col gap-2 w-1/6 flex-none'>
-      <NavLink href='/tech/next' title='Next.js' />
-      <NavLink href='/tech/go' title='Go' />
-      <NavLink href='/tech/nvim' title='Neovim' />
-      <NavLink href='/tech/typescript' title='Typescript' />
-      <NavLink href='/tech/tailwind' title='Tailwind CSS' />
-      <NavLink href='/tech/rust' title='Rust' />
-      <NavLink href='/tech/git' title='Github' />
-    </nav>
+    <div>
+      <nav className='hidden sm:flex flex-col gap-2 w-1/6 flex-none'>
+        <NavLink href='/' title='Home' />
+        <NavLink href='/tech/next' title='Next.js' />
+        <NavLink href='/tech/go' title='Go' />
+        <NavLink href='/tech/nvim' title='Neovim' />
+        <NavLink href='/tech/typescript' title='Typescript' />
+        <NavLink href='/tech/tailwind' title='Tailwind CSS' />
+        <NavLink href='/tech/rust' title='Rust' />
+        <NavLink href='/tech/git' title='Github' />
+      </nav>
+    </div>
   )
 }
 

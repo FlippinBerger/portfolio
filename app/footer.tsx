@@ -15,27 +15,45 @@ export default function Footer() {
       initial={{ y: 100 }}
       transition={{ duration: duration }}
     >
-      <AriaLink
-        href='https://github.com/FlippinBerger/'
-        target='_blank'
-        className='data-[focused]:outline-none data-[focus-visible]:outline-white'
+      <motion.div
+        whileHover={{
+          scale: 1.3,
+        }}
       >
-        <RiGithubFill size={iconSize} />
-      </AriaLink>
-      <AriaLink
-        href='https://www.linkedin.com/in/christopher-berger-76b2848a/'
-        target='_blank'
-        className='data-[focused]:outline-none data-[focus-visible]:outline-white'
+        <AriaLink
+          href='https://github.com/FlippinBerger/'
+          target='_blank'
+          className='data-[focused]:outline-none data-[focus-visible]:outline-white'
+        >
+          <RiGithubFill size={iconSize} />
+        </AriaLink>
+      </motion.div>
+      <motion.div
+        whileHover={{
+          scale: 1.3,
+        }}
       >
-        <RiLinkedinBoxFill size={iconSize} />
-      </AriaLink>
-      <AriaLink
-        href='mailto:flippinberger@gmail.com'
-        target='_blank'
-        className='data-[focused]:outline-none data-[focus-visible]:outline-white'
+        <AriaLink
+          href='https://www.linkedin.com/in/christopher-berger-76b2848a/'
+          target='_blank'
+          className='data-[focused]:outline-none data-[focus-visible]:outline-white'
+        >
+          <RiLinkedinBoxFill size={iconSize} />
+        </AriaLink>
+      </motion.div>
+      <motion.div
+        whileHover={{
+          scale: 1.3,
+        }}
       >
-        <RiMailLine size={iconSize} />
-      </AriaLink>
+        <AriaLink
+          href='mailto:flippinberger@gmail.com'
+          target='_blank'
+          className='data-[focused]:outline-none data-[focus-visible]:outline-white'
+        >
+          <RiMailLine size={iconSize} />
+        </AriaLink>
+      </motion.div>
     </motion.div>
   )
 }

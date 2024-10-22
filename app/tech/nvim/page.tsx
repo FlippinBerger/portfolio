@@ -17,14 +17,18 @@ export default function NeovimPage() {
       <h2 className='text-2xl mb-8'>
         Neovim is my text editor of choice. I used to use{' '}
         <span className='underline text-violet-600'>
-          <a href='https://www.lunarvim.org/'>lunarvim</a>
+          <a href='https://www.lunarvim.org/' target='_blank'>
+            lunarvim
+          </a>
         </span>{' '}
         which is an opinionated set of plugins to give you a default, close to
         IDE experience within neovim. I liked it a lot, but wanted to know what
-        all my plugins were so I took what I liked and left what I didn't use
-        behind and came up with{' '}
+        all my plugins were so I took what I liked and left what I didn&apos;t
+        use behind and came up with{' '}
         <span className='underline text-violet-600'>
-          <a href='https://github.com/FlippinBerger/nvim/'>this config</a>
+          <a href='https://github.com/FlippinBerger/nvim/' target='_blank'>
+            this config
+          </a>
         </span>
         .
       </h2>
