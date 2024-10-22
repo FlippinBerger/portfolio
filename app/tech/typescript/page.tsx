@@ -15,7 +15,7 @@ export default function TypescriptPage() {
           className='bg-white'
         />
       </div>
-      <h2 className='text-2xl mb-8'>
+      <h2 className='text-2xl text-green-400 mb-8'>
         Typescript is quickly becoming one of my favorite languages because of
         how easy it is to create web apps with it. I used to be against the
         usage of Typscript/Javascript because I knew other languages were faster
@@ -25,7 +25,7 @@ export default function TypescriptPage() {
         these days. When it&apos;s not you can pretty easily swap it out for Go
         or Rust to squeeze out the performance that you need.
       </h2>
-      <h2 className='text-2xl mb-8'>
+      <h2 className='text-2xl text-green-400 mb-8'>
         I am now using Typscript more than any other language by a lot and
         having a great time creating websites for myself and others that are
         actually making a difference. The power of getting stuff done cannot be

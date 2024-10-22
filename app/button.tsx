@@ -13,7 +13,9 @@ const Buttin: React.FC<Props> = ({ children }) => {
         scale: 1.4,
       }}
     >
-      <Button className='bg-violet-600 rounded-2xl text-xl'>{children}</Button>
+      <Button className='p-2 bg-violet-600 rounded-2xl text-xl'>
+        {children}
+      </Button>
     </motion.div>
   )
 }

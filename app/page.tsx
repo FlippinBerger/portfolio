@@ -9,8 +9,8 @@ export default function Home() {
   const imgSize = 128
 
   return (
-    <div className='flex flex-col justify-between sm:h-screen sm:min-h-full'>
-      <main className='flex flex-col justify-around items-center sm:h-screen sm:min-h-full'>
+    <div className='flex flex-col justify-between sm:h-screen sm:min-h-80'>
+      <main className='flex flex-col justify-around items-center sm:h-screen sm:min-h-80'>
         <motion.div
           animate={{ x: 0 }}
           initial={{ x: -1200 }}

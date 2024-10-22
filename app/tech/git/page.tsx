@@ -9,14 +9,14 @@ export default function GithubPage() {
         </a>
         <RiGithubLine size={48} />
       </div>
-      <h2 className='text-2xl mb-8'>
+      <h2 className='text-2xl text-green-400 mb-8'>
         Github has been my source control choice for my entire career. I am
         completely comfortable with a day to day workflow on an internal team,
         or forking a code base to work on open source projects. I have
         contributed both ways and have always been a bit of a helper on the team
         when merges/rebases get messy.
       </h2>
-      <h2 className='text-2xl mb-8'>
+      <h2 className='text-2xl text-green-400 mb-8'>
         I also have used Github Actions pretty extensively in CI/CD pipelines
         that I have worked on in the past and always opt for this option in my
         own projects.

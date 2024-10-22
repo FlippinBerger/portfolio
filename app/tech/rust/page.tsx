@@ -15,7 +15,7 @@ export default function RustPage() {
           width={48}
         />
       </div>
-      <h2 className='text-2xl mb-8'>
+      <h2 className='text-2xl text-green-400 mb-8'>
         Rust is my favorite language and, in my opinion, the future of advanced
         computing. I am certainly not a pro, but I have played with Rust a lot
         and absolutely love how much the compiler helps you when you are working
@@ -23,7 +23,7 @@ export default function RustPage() {
         want once you work through the compiler errors. The language does so
         much work for you to ensure the code is fast, safe, and correct.
       </h2>
-      <h2 className='text-2xl mb-8'>
+      <h2 className='text-2xl text-green-400 mb-8'>
         I have made a few small contributions to the{' '}
         <span className='underline text-violet-600'>
           <a href='https://bevyengine.org/' target='_blank'>

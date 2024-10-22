@@ -14,12 +14,12 @@ export default function GoPage() {
           width={48}
         />
       </div>
-      <h2 className='text-2xl mb-8'>
+      <h2 className='text-2xl text-green-400 mb-8'>
         Golang is my comfort backend language. It is the language I spent the
         most time learning, and is second only to Typescript in the language I
         have the most production experience writing.
       </h2>
-      <h2 className='text-2xl mb-8'>
+      <h2 className='text-2xl text-green-400 mb-8'>
         The thing I love most about Go is the simplicity. Production code bases
         that I have worked in all have their issues, but I feel like Go works
         hard to prevent a lot of the style and &quot;over-coding&quot; issues
