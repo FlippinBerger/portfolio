@@ -8,15 +8,21 @@ type Props = {
 
 const Buttin: React.FC<Props> = ({ children }) => {
   return (
-    <motion.div
-      whileHover={{
-        scale: 1.4,
-      }}
-    >
-      <Button className='p-2 bg-violet-600 rounded-2xl text-xl'>
+    <div>
+      <motion.div
+        whileHover={{
+          scale: 1.4,
+        }}
+        className='hidden sm:block'
+      >
+        <Button className='p-2 bg-violet-600 rounded-2xl text-xl'>
+          {children}
+        </Button>
+      </motion.div>
+      <Button className='sm:hidden p-2 bg-violet-600 rounded-2xl text-xl'>
         {children}
       </Button>
-    </motion.div>
+    </div>
   )
 }
 
