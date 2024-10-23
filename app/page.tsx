@@ -61,14 +61,14 @@ export default function Home() {
                 Tech Skills
               </Link>
             </motion.div>
-            <motion.div whileHover={{ scale: 1.4 }}>
+            {/*<motion.div whileHover={{ scale: 1.4 }}>
               <Link
                 className='p-3 bg-violet-600 rounded-2xl text-xl'
                 href='/portfolio'
               >
                 Portfolio
               </Link>
-            </motion.div>
+            </motion.div>*/}
           </div>
         </motion.div>
       </main>
