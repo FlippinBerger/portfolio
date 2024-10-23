@@ -61,8 +61,12 @@ type Props = {
 const NavLink: React.FC<Props> = ({ title, href }) => {
   const close = useClose()
   return (
-    <Link className='hover:underline' href={href} onClick={() => close()}>
-      <h1 className='text-xl sm:text-3xl pl-4 py-2'>{title}</h1>
+    <Link
+      className='hover:underline decoration-violet-600'
+      href={href}
+      onClick={() => close()}
+    >
+      <h1 className='text-violet-600 text-xl sm:text-3xl pl-4 py-2'>{title}</h1>
     </Link>
   )
 }
