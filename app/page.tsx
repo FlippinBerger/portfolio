@@ -45,12 +45,14 @@ export default function Home() {
           transition={{ duration: duration }}
         >
           <div className='flex flex-col items-center my-8 sm:flex-row sm:my-0 gap-8 justify-center sm:w-screen'>
-            <Link
-              className='p-3 bg-violet-600 rounded-2xl text-xl'
-              href='/about'
-            >
-              About Me
-            </Link>
+            <motion.div whileHover={{ scale: 1.4 }}>
+              <Link
+                className='p-3 bg-violet-600 rounded-2xl text-xl'
+                href='/about'
+              >
+                About Me
+              </Link>
+            </motion.div>
             <Link
               className='p-3 bg-violet-600 rounded-2xl text-xl'
               href='/tech/next'
