@@ -16,6 +16,7 @@ export default function Home() {
           initial={{ x: -1200 }}
           transition={{ duration: duration }}
         >
+          {' '}
           <div className='flex flex-col items-center'>
             <div className='flex flex-col sm:flex-row justify-center items-center'>
               <div className='bg-violet-600 rounded-2xl m-4 sm:flex-none'>
@@ -46,20 +47,21 @@ export default function Home() {
         >
           <div className='flex flex-col items-center my-8 sm:flex-row sm:my-0 gap-8 justify-center sm:w-screen'>
             <Buttin>
-              <Link className='p-4' href='/about'>
+              <Link className='p-4 z-10' href='/about'>
                 About Me
               </Link>
             </Buttin>
             <Buttin>
-              <Link className='p-4' href='/tech/next'>
+              <Link className='p-4 z-10' href='/tech/next'>
                 Tech Skills
               </Link>
             </Buttin>
             <Buttin>
-              <Link className='p-4' href='/portfolio'>
+              <Link className='p-4 z-10' href='/portfolio'>
                 Portfolio
               </Link>
             </Buttin>
+            <Link href='/about'>Other</Link>
           </div>
         </motion.div>
       </main>
