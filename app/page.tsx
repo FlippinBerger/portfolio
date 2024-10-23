@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import * as motion from 'framer-motion/client'
-import Buttin from './button'
 import Footer from './footer'
 import Image from 'next/image'
 
@@ -46,21 +45,24 @@ export default function Home() {
           transition={{ duration: duration }}
         >
           <div className='flex flex-col items-center my-8 sm:flex-row sm:my-0 gap-8 justify-center sm:w-screen'>
-            <Buttin>
-              <Link className='p-4' href='/about'>
-                About Me
-              </Link>
-            </Buttin>
-            <Buttin>
-              <Link className='p-4' href='/tech/next'>
-                Tech Skills
-              </Link>
-            </Buttin>
-            <Buttin>
-              <Link className='p-4' href='/portfolio'>
-                Portfolio
-              </Link>
-            </Buttin>
+            <Link
+              className='p-3 bg-violet-600 rounded-2xl text-xl'
+              href='/about'
+            >
+              About Me
+            </Link>
+            <Link
+              className='p-3 bg-violet-600 rounded-2xl text-xl'
+              href='/tech/next'
+            >
+              Tech Skills
+            </Link>
+            <Link
+              className='p-3 bg-violet-600 rounded-2xl text-xl'
+              href='/portfolio'
+            >
+              Portfolio
+            </Link>
           </div>
         </motion.div>
       </main>
