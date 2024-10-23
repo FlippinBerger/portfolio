@@ -1,14 +1,13 @@
 'use client'
 
+import {
+  Popover,
+  PopoverButton,
+  PopoverPanel,
+  useClose,
+} from '@headlessui/react'
 import { RiMenuLine } from '@remixicon/react'
 import Link from 'next/link'
-import {
-  Button,
-  Menu,
-  MenuItem,
-  MenuTrigger,
-  Popover,
-} from 'react-aria-components'
 
 export default function TechSkillsLayout({
   children,
@@ -36,41 +35,21 @@ const TechSkillsNav = () => {
         <NavLink href='/tech/rust' title='Rust' />
         <NavLink href='/tech/git' title='Github' />
       </nav>
-      <div className='sm:hidden absolute top-2 left-2'>
-        <MenuTrigger>
-          <Button aria-label='Menu'>
-            <RiMenuLine size={36} />
-          </Button>
-          <Popover>
-            <Menu className='bg-black border border-violet-600'>
-              <MenuItem className='hover:bg-violet-600'>
-                <NavLink href='/' title='Home' />
-              </MenuItem>
-              <MenuItem className='hover:bg-violet-600'>
-                <NavLink href='/tech/next' title='Next.js' />
-              </MenuItem>
-              <MenuItem className='hover:bg-violet-600'>
-                <NavLink href='/tech/go' title='Go' />
-              </MenuItem>
-              <MenuItem className='hover:bg-violet-600'>
-                <NavLink href='/tech/nvim' title='Neovim' />
-              </MenuItem>
-              <MenuItem className='hover:bg-violet-600'>
-                <NavLink href='/tech/typescript' title='Typescript' />
-              </MenuItem>
-              <MenuItem className='hover:bg-violet-600'>
-                <NavLink href='/tech/tailwind' title='Tailwind CSS' />
-              </MenuItem>
-              <MenuItem className='hover:bg-violet-600'>
-                <NavLink href='/tech/rust' title='Rust' />
-              </MenuItem>
-              <MenuItem className='hover:bg-violet-600'>
-                <NavLink href='/tech/git' title='Github' />
-              </MenuItem>
-            </Menu>
-          </Popover>
-        </MenuTrigger>
-      </div>
+      <Popover className='sm:hidden absolute top-2 left-2'>
+        <PopoverButton>
+          <RiMenuLine size={36} />
+        </PopoverButton>
+        <PopoverPanel className='bg-black border border-violet-600'>
+          <NavLink href='/' title='Home' />
+          <NavLink href='/tech/next' title='Next.js' />
+          <NavLink href='/tech/go' title='Go' />
+          <NavLink href='/tech/nvim' title='Neovim' />
+          <NavLink href='/tech/typescript' title='Typescript' />
+          <NavLink href='/tech/tailwind' title='Tailwind CSS' />
+          <NavLink href='/tech/rust' title='Rust' />
+          <NavLink href='/tech/git' title='Github' />
+        </PopoverPanel>
+      </Popover>
     </div>
   )
 }
@@ -80,8 +59,9 @@ type Props = {
   href: string
 }
 const NavLink: React.FC<Props> = ({ title, href }) => {
+  const close = useClose()
   return (
-    <Link className='sm:hover:underline sm:hover:bg-violet-600' href={href}>
+    <Link className='hover:underline' href={href} onClick={() => close()}>
       <h1 className='text-xl sm:text-3xl pl-4 py-2'>{title}</h1>
     </Link>
   )
