@@ -78,6 +78,20 @@ export default function AboutPage() {
           </li>
           <li>
             <h1 className='text-2xl text-green-400 mb-3'>
+              I&apos;m an avid runner. You can find me on{' '}
+              <span>
+                <a
+                  className='text-violet-600 underline'
+                  href='https://www.strava.com/athletes/119450827'
+                  target='_blank'
+                >
+                  Strava
+                </a>
+              </span>
+            </h1>
+          </li>
+          <li>
+            <h1 className='text-2xl text-green-400 mb-3'>
               I&apos;m a huge fantasy nerd. My favorite authors are Robin Hobb
               and Brandon Sanderson. Special shoutouts to The Liveship Traders
               and Mistborn, respectively.
