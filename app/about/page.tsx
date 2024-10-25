@@ -50,7 +50,7 @@ export default function AboutPage() {
         className='sm:border sm:border-sky-300 rounded-2xl pl-4 p-2'
       >
         <Link href='/'>
-          <h1 className='text-4xl my-4 text-green-400'>Chris Berger</h1>
+          <h1 className='text-4xl my-4 text-pink-300'>Chris Berger</h1>
         </Link>
         <ul className='list-disc pl-2 marker:text-sky-300'>
           <li>
