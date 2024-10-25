@@ -5,7 +5,7 @@ export default function RustPage() {
     <div className='flex flex-col mt-8 mx-8'>
       <div className='flex self-center items-center gap-2 my-8'>
         <a href='https://www.rust-lang.org/' target='_blank'>
-          <h1 className='text-4xl text-violet-600'>Rust</h1>
+          <h1 className='text-4xl text-sky-300'>Rust</h1>
         </a>
         <Image
           className='bg-white rounded-full'
@@ -25,7 +25,7 @@ export default function RustPage() {
       </h2>
       <h2 className='text-2xl text-green-400 mb-8'>
         I have made a few small contributions to the{' '}
-        <span className='underline text-violet-600'>
+        <span className='underline text-sky-300'>
           <a href='https://bevyengine.org/' target='_blank'>
             Bevy project
           </a>

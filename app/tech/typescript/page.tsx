@@ -5,7 +5,7 @@ export default function TypescriptPage() {
     <div className='flex flex-col mt-8 mx-8'>
       <div className='flex self-center items-center gap-2 my-8'>
         <a href='https://www.typescriptlang.org/' target='_blank'>
-          <h1 className='text-4xl text-violet-600'>Typescript</h1>
+          <h1 className='text-4xl text-sky-300'>Typescript</h1>
         </a>
         <Image
           src='/images/ts.svg'

@@ -5,7 +5,7 @@ export default function NeovimPage() {
     <div className='flex flex-col mx-8'>
       <div className='flex self-center items-center gap-2 my-8'>
         <a href='https://neovim.io/' target='_blank'>
-          <h1 className='text-4xl text-violet-600'>Neovim</h1>
+          <h1 className='text-4xl text-sky-300'>Neovim</h1>
         </a>
         <Image
           src='/images/neovim.svg'
@@ -16,7 +16,7 @@ export default function NeovimPage() {
       </div>
       <h2 className='text-2xl text-green-400 mb-8'>
         Neovim is my text editor of choice. I used to use{' '}
-        <span className='underline text-violet-600'>
+        <span className='underline text-sky-300'>
           <a href='https://www.lunarvim.org/' target='_blank'>
             lunarvim
           </a>
@@ -25,7 +25,7 @@ export default function NeovimPage() {
         IDE experience within neovim. I liked it a lot, but wanted to know what
         all my plugins were so I took what I liked and left what I didn&apos;t
         use behind and came up with{' '}
-        <span className='underline text-green-400 text-violet-600'>
+        <span className='underline text-green-400 text-sky-300'>
           <a href='https://github.com/FlippinBerger/nvim/' target='_blank'>
             this config
           </a>

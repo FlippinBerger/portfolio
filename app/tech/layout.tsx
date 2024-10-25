@@ -39,7 +39,7 @@ const TechSkillsNav = () => {
         <PopoverButton>
           <RiMenuLine size={36} />
         </PopoverButton>
-        <PopoverPanel className='bg-black border border-violet-600'>
+        <PopoverPanel className='bg-black border border-sky-300'>
           <NavLink href='/' title='Home' />
           <NavLink href='/tech/next' title='Next.js' />
           <NavLink href='/tech/go' title='Go' />
@@ -62,11 +62,11 @@ const NavLink: React.FC<Props> = ({ title, href }) => {
   const close = useClose()
   return (
     <Link
-      className='hover:underline decoration-violet-600'
+      className='hover:underline decoration-sky-300'
       href={href}
       onClick={() => close()}
     >
-      <h1 className='text-violet-600 text-xl sm:text-3xl pl-4 py-2'>{title}</h1>
+      <h1 className='text-sky-300 text-xl sm:text-3xl pl-4 py-2'>{title}</h1>
     </Link>
   )
 }

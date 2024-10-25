@@ -5,7 +5,7 @@ export default function GithubPage() {
     <div className='flex flex-col mt-8 mx-8'>
       <div className='flex self-center items-center gap-2 my-8'>
         <a href='https://github.com' target='_blank'>
-          <h1 className='text-4xl text-violet-600'>Github</h1>
+          <h1 className='text-4xl text-sky-300'>Github</h1>
         </a>
         <RiGithubLine size={48} />
       </div>

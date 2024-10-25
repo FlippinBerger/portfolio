@@ -23,7 +23,7 @@ export default function AboutPage() {
               alt='Chris hiking'
               height='300'
               width='300'
-              className='rounded-full aspect-square object-cover border border-violet-600'
+              className='rounded-full aspect-square object-cover border border-sky-300'
             />
           </motion.div>
         </Link>
@@ -38,7 +38,7 @@ export default function AboutPage() {
               alt='Chris hiking'
               height='300'
               width='300'
-              className='rounded-full aspect-square object-cover border border-violet-600'
+              className='rounded-full aspect-square object-cover border border-sky-300'
             />
           </motion.div>
         </Link>
@@ -47,12 +47,12 @@ export default function AboutPage() {
         animate={{ x: 0 }}
         initial={{ x: 1200 }}
         transition={{ duration: duration }}
-        className='sm:border sm:border-violet-600 rounded-2xl pl-4 p-2'
+        className='sm:border sm:border-sky-300 rounded-2xl pl-4 p-2'
       >
         <Link href='/'>
           <h1 className='text-4xl my-4 text-green-400'>Chris Berger</h1>
         </Link>
-        <ul className='list-disc pl-2 marker:text-violet-600'>
+        <ul className='list-disc pl-2 marker:text-sky-300'>
           <li>
             <h1 className='text-2xl text-green-400 mb-3'>
               I&apos;m a Michigander currently soaking up the sunshine in Fort
@@ -81,7 +81,7 @@ export default function AboutPage() {
               I&apos;m an avid runner. You can find me on{' '}
               <span>
                 <a
-                  className='text-violet-600 underline'
+                  className='text-sky-300 underline'
                   href='https://www.strava.com/athletes/119450827'
                   target='_blank'
                 >
@@ -117,7 +117,7 @@ export default function AboutPage() {
           I&apos;m also hyper competitve and LOVE a stupid game. Some random
           leagues I have been a part of include:
         </h1>
-        <ul className='list-disc mt-2 marker:text-violet-600'>
+        <ul className='list-disc mt-2 marker:text-sky-300'>
           <li>
             <h1 className='text-2xl text-green-400'>Cornhole</h1>
           </li>

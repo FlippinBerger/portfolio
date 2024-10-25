@@ -5,7 +5,7 @@ export default function NextPage() {
     <div className='flex flex-col items-center mx-8'>
       <div className='flex items-center gap-2 my-8'>
         <a href='https://nextjs.org/' target='_blank'>
-          <h1 className='text-4xl text-violet-600'>Next.js</h1>
+          <h1 className='text-4xl text-sky-300'>Next.js</h1>
         </a>
         <RiNextjsFill size={48} />
       </div>

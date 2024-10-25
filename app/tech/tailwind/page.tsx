@@ -9,7 +9,7 @@ export default function TailwindPage() {
           target='_blank'
           className='flex-none'
         >
-          <h1 className='text-4xl text-violet-600'>Tailwind CSS</h1>
+          <h1 className='text-4xl text-sky-300'>Tailwind CSS</h1>
         </a>
         <RiTailwindCssFill size={48} />
       </div>

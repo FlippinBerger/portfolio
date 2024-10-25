@@ -5,7 +5,7 @@ export default function GoPage() {
     <div className='flex flex-col mt-8 mx-8'>
       <div className='flex self-center items-center gap-2 my-8'>
         <a href='https://go.dev/' target='_blank'>
-          <h1 className='text-4xl text-violet-600'>Go</h1>
+          <h1 className='text-4xl text-sky-300'>Go</h1>
         </a>
         <Image
           src='/images/gopher.svg'
