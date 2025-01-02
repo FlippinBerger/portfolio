@@ -31,10 +31,9 @@ export default function Home() {
             </div>
             <div className='flex flex-col justify-center items-start bg-violet-600 p-4 rounded-2xl mx-2 sm:mx-0'>
               <h2 className='text-2xl mb-2'>
-                I&apos;m a freelance developer specializing in Next.js to
-                provide value as fast as possible.
+                I&apos;m a sofware engineer with a lot of fullstack web
+                experience who loves to play with new technologies.
               </h2>
-              <h2 className='text-2xl'>I also work well with Go :)</h2>
             </div>
           </div>
         </motion.div>
@@ -56,19 +55,19 @@ export default function Home() {
             <motion.div whileHover={{ scale: 1.4 }}>
               <Link
                 className='p-3 bg-violet-600 rounded-2xl text-xl'
-                href='/tech/next'
+                href='/tech/rust'
               >
                 Tech Skills
               </Link>
             </motion.div>
-            {/*<motion.div whileHover={{ scale: 1.4 }}>
+            <motion.div whileHover={{ scale: 1.4 }}>
               <Link
                 className='p-3 bg-violet-600 rounded-2xl text-xl'
                 href='/portfolio'
               >
                 Portfolio
               </Link>
-            </motion.div>*/}
+            </motion.div>
           </div>
         </motion.div>
       </main>
