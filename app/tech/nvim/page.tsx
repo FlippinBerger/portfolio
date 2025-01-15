@@ -26,7 +26,10 @@ export default function NeovimPage() {
         all my plugins were so I took what I liked and left what I didn&apos;t
         use behind and came up with{' '}
         <span className='underline text-green-400 text-sky-300'>
-          <a href='https://github.com/FlippinBerger/nvim/' target='_blank'>
+          <a
+            href='https://github.com/FlippinBerger/dotfiles/tree/main/nvim'
+            target='_blank'
+          >
             this config
           </a>
         </span>
