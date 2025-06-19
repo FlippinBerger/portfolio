@@ -16,6 +16,20 @@ export default function PortfolioPage() {
                 description='Landing page built with Next.js for our run club here in Fort Collins :)'
               />
             </li>
+            <li>
+              <PortfolioCard
+                title='Bevy TabGroup bug fix'
+                href='https://github.com/bevyengine/bevy/pull/19218'
+                description='Fixed an issue where cycling through TabGroups did not respect the order set by the developer with TabGroup and TabIndex'
+              />
+            </li>
+            <li>
+              <PortfolioCard
+                title='Bevy timer rename'
+                href='https://github.com/bevyengine/bevy/pull/19386'
+                description='Simple update to align the Timer methods with the public API for Time and Stopwatch'
+              />
+            </li>
           </ul>
         </div>
       </main>
@@ -31,7 +45,7 @@ type Props = {
 
 const PortfolioCard: React.FC<Props> = ({ title, href, description }) => {
   return (
-    <div className='border border-green-400 rounded p-2'>
+    <div className='border border-green-400 rounded p-2 my-4'>
       <a href={href} target='_blank'>
         <h1 className='hover:underline decoration-sky-300 text-sky-300 text-xl sm:text-3xl'>
           {title}
