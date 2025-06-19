@@ -10,13 +10,8 @@ export default function NextPage() {
         <RiNextjsFill size={48} />
       </div>
       <h2 className='text-2xl text-green-400 mb-8'>
-        Next.js is my new baby. I have recently dropped the notion that TS
-        shouldn&apos;t be used anywhere and latched onto the fact that you can
-        make cool websites (like this one) really quickly using Next.js.
-      </h2>
-      <h2 className='text-2xl text-green-400 mb-8'>
-        I am looking to make a career out of full stack Next.js through either a
-        full time position or freelancing for small businesses.
+        Next.js is my new baby. I have recently latched onto the fact that you
+        can make cool websites (like this one) really quickly using Next.js.
       </h2>
     </div>
   )

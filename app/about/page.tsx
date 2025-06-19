@@ -66,8 +66,8 @@ export default function AboutPage() {
           </li>
           <li>
             <h1 className='text-2xl text-green-400 mb-3'>
-              I am looking to continue pushing myself as a full stack developer
-              by building websites for local businesses that I care about.{' '}
+              I am looking to continue pushing myself as a developer using Rust
+              and whatever other cool tech I can get my hands on.
             </h1>
           </li>
           <li>
@@ -99,15 +99,14 @@ export default function AboutPage() {
           </li>
           <li>
             <h1 className='text-2xl text-green-400 mb-3'>
-              Currently reading: Sanderson&apos;s The Way of Kings, Book 1 of
-              The Stormlight Archive. This one easily has the potential to
-              overtake Mistborn for me.
+              Currently reading: Sanderson&apos;s Words of Radiance, Book 2 of
+              The Stormlight Archive.
             </h1>
           </li>
           <li>
             <h1 className='text-2xl text-green-400 mb-3'>
-              I also enjoy gaming. I play a lot of indie titles and Valorant
-              (trash tier Viper main).
+              I also enjoy gaming. I play a lot of indie titles, League of
+              Legends, and Street Fighter 6.
             </h1>
           </li>
         </ul>

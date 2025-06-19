@@ -30,6 +30,7 @@ const TechSkillsNav = () => {
         <NavLink href='/tech/rust' title='Rust' />
         <NavLink href='/tech/go' title='Go' />
         <NavLink href='/tech/typescript' title='Typescript' />
+        <NavLink href='/tech/vue' title='Vue' />
         <NavLink href='/tech/next' title='Next.js' />
         <NavLink href='/tech/nvim' title='Neovim' />
         <NavLink href='/tech/tailwind' title='Tailwind CSS' />
@@ -44,6 +45,7 @@ const TechSkillsNav = () => {
           <NavLink href='/tech/rust' title='Rust' />
           <NavLink href='/tech/go' title='Go' />
           <NavLink href='/tech/typescript' title='Typescript' />
+          <NavLink href='/tech/vue' title='Vue' />
           <NavLink href='/tech/next' title='Next.js' />
           <NavLink href='/tech/nvim' title='Neovim' />
           <NavLink href='/tech/tailwind' title='Tailwind CSS' />
